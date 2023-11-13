@@ -180,6 +180,7 @@ export class AccordionGroup implements ComponentInterface {
     if (this.readonly) {
       this.readonlyChanged();
     }
+    this.valueChanged();
   }
 
   /**
